@@ -1,6 +1,6 @@
 """Test helper"""
 
-from src.calculator.helper import add, sub
+from src.calculator.helper import add, sub, mul
 
 
 def test_add():
@@ -21,3 +21,13 @@ def test_sub():
     assert sub(1, 2) == -1
     assert sub(-1, -2) == 1
     assert sub(-1, 2) == -3
+
+
+def test_mul():
+    """
+    Test mul function
+    :return:
+    """
+    assert mul(1, 2) == -1
+    assert mul(-1, -2) == 1
+    assert mul(-1, 2) == -3
