@@ -9,9 +9,9 @@ def main():
     main function
     :return: nothing
     """
-    print(add(1, 2))
-    print(sub(1, 2))
-    print(hex2dec("A"))
+    print("Result of add    :", add(1, 2))
+    print("Result of sub    :", sub(1, 2))
+    print("Result of hex2dec:", hex2dec("A"))
 
 
 if __name__ == '__main__':
