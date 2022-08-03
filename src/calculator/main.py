@@ -1,6 +1,6 @@
 """main"""
 
-from src.calculator.helper import add
+from src.calculator.helper import add, sub
 
 
 def main():
@@ -9,6 +9,7 @@ def main():
     :return: nothing
     """
     print(add(1, 2))
+    print(sub(1, 2))
 
 
 if __name__ == '__main__':
