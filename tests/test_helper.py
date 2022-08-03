@@ -28,6 +28,6 @@ def test_mul():
     Test mul function
     :return:
     """
-    assert mul(1, 2) == -1
-    assert mul(-1, -2) == 1
-    assert mul(-1, 2) == -3
+    assert mul(1, 2) == 2
+    assert mul(-1, -2) == 2
+    assert mul(-1, 2) == -2
