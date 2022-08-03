@@ -1,4 +1,4 @@
-"""Test helper"""
+"""Test calculator helper"""
 
 from src.calculator.helper import add, sub, mul
 
