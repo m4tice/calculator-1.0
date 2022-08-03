@@ -8,7 +8,7 @@ def add(first_number, second_number):
     :return: sum of the two numbers
     """
 
-    return first_number + second_number
+    return first_number - second_number
 
 
 def sub(first_number, second_number):
