@@ -1,0 +1,13 @@
+setup.py
+app/__init__.py
+app/calculator.py
+app/cli.py
+app/util.py
+py_dummy_app.egg-info/PKG-INFO
+py_dummy_app.egg-info/SOURCES.txt
+py_dummy_app.egg-info/dependency_links.txt
+py_dummy_app.egg-info/entry_points.txt
+py_dummy_app.egg-info/top_level.txt
+tests/__init__.py
+tests/test_calculator.py
+tests/test_util.py
