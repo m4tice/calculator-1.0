@@ -1,11 +1,15 @@
 """
 author: @guu8hc
 """
+#pylint: disable=line-too-long
 
 import argparse
 from app.calculator import Calculator
 
 def main():
+    """
+    main cli function
+    """
     parser = argparse.ArgumentParser(description="Calculator CLI")
     parser.add_argument("operation", choices=["add", "subtract", "multiply", "divide", "power", "factorial", "is_prime", "root"], help="Operation to perform")
     parser.add_argument("operands", nargs="+", type=float, help="Operands for the operation")
@@ -13,6 +17,7 @@ def main():
     args = parser.parse_args()
     print(f"DEBUG: {args}")
     calc = Calculator()
+    result = None
 
     if args.operation == "add":
         result = calc.add(*args.operands)
