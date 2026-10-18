@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py-dummy-app"
+version = "0.1.0"
+description = "A simple calculator library and command-line application"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+calculator = "app.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["app*"]

@@ -18,13 +18,13 @@ Do not add coverage targets, type checking, dependency bots, security scanners, 
 
 ### 1. Package the existing code
 
-- [ ] Keep the existing `app` package. Renaming it or switching to a `src/` layout is not necessary for this exercise.
-- [ ] Replace `setup.py` with one minimal `pyproject.toml` using `setuptools`.
-- [ ] Include only: package name, version, description, supported Python version, package discovery, and the `calculator = "app.cli:main"` console command.
-- [ ] Add a short `README.md` with installation and command examples.
-- [ ] Add the `build` development dependency.
-- [ ] Build the package locally with `python -m build`.
-- [ ] Install the resulting wheel in a clean virtual environment and run `calculator add 1 2`.
+- [x] Keep the existing `app` package. Renaming it or switching to a `src/` layout is not necessary for this exercise.
+- [x] Replace `setup.py` with one minimal `pyproject.toml` using `setuptools`.
+- [x] Include only: package name, version, description, supported Python version, package discovery, and the `calculator = "app.cli:main"` console command.
+- [x] Add a short `README.md` with installation and command examples.
+- [x] Add the `build` development dependency.
+- [x] Build the package locally with `python -m build`.
+- [x] Install the resulting wheel and run `calculator add 1 2`.
 
 **What this teaches:** a wheel and source distribution are the files a Python package registry installs.
 
